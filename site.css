@@ -1,0 +1,51 @@
+@keyframes animat {
+    from {
+        transform: translateX(-300px);
+    } 
+    to {
+        transform: translateX(0px); 
+    }
+}
+.r1 { 
+    animation-name: animat; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    color: black;  
+    opacity: 1; 
+    transition: 2s; 
+    font-size: 150px; 
+} 
+.r1:hover {
+    color: blue; 
+} 
+.t11 {
+    background-color: aqua; 
+    width: 3000px; 
+    height: 1500px; 
+} 
+.r2 {
+    animation-name: animat; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    opacity: 0.7; 
+    color: black; 
+    font-size: 150px; 
+    transition: 2s; 
+} 
+.r2:hover {
+    color: blue; 
+} 
+.nappi {
+    background-color: purple; 
+    animation-name: animat; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    opacity: 0.7; 
+    font-size: 150px; 
+    border: none; 
+    border-radius: 8px; 
+    transition: 2s; 
+} 
+.nappi:hover {
+    background-color: blue; 
+}
